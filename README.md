@@ -22,6 +22,11 @@ Clone the repository: https://github.com/swathigovind/StarWars.git
 
 * Navigate to the project directory 
 * Open the `index.html` file in your browser.
+* List of Characters displays with films in People page
+* Click on the film name
+* Film details displays with list of characters in Film detail page.
+* Click on the character
+* Character detail displays along with spaceship and vehicles in the character detail page.
 
 
 ## License
