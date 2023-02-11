@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="" width=device-width, initial-scale="1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Starwars API</title>
+
+  <style>
+
+    .double-shaded-card {
+      background: linear-gradient(to bottom, rgba(15, 40, 226, 0.3), rgba(27, 4, 4, 0.3)),
+        linear-gradient(to top, rgba(157, 6, 6, 0.1), rgba(221, 51, 51, 0.1));
+    }
+
+    header {
+      border: 1px solid black;
+      padding: 10px;
+      background-color: gray;
+      animation: header-bg-color 10s ease-in-out infinite;
+    }
+
+    @keyframes header-bg-color {
+      0% {
+        background-color: gray;
+      }
+
+      50% {
+        background-color: black;
+      }
+
+      100% {
+        background-color: gray;
+      }
+    }
+
+
+    .profile-card {
+      border: 2px solid rgb(51, 0, 255);
+      font-family: Arial, sans-serif;
+      width: 30%;
+      opacity: 0;
+    }
+
+    .profile-card .card-img-top {
+      border-radius: 50%;
+      width: 100px;
+      margin: 0 auto;
+      display: block;
+    }
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+  
+ .card {
+    height: 500px;
+ }
+
+  </style>
+</head>
+
+<body class="container">
+
+  <header class="border text-center pt-5">
+    <a href="https://swapi.co/">
+      <img src="assets/header.png" alt="">
+    </a>
+  </header>
+
+  <header class="border text-center pt-5">
+    <a href="https://swapi.co/">
+      <img src="assets/subheader.png" alt="">
+    </a>
+  </header>
+
+  <div id="results" class="card-columns"></div>
+
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+    integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+    integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

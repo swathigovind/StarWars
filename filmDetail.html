@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Film Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .card {
+            background-image: url(./assets/FilmRoll.JPG);
+            background-size: cover;
+            background-position: center;
+            color: whitesmoke;
+            height: 1200px;
+        }
+
+        .card-body {
+            text-align: left;
+        }
+
+        strong {
+            color: rgb(226, 94, 94);
+        }
+
+        #characters a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+
+
+    <script src="filmDetail.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card d-flex justify-content-end">
+            <div class="card-body text-center align-self-center">
+                <h2 id="film-title" class="card-title"></h2>
+                <p class="card-text">
+                    <strong>Release Date:</strong> <span id="release-date"></span>
+                </p>
+                <p class="card-text">
+                    <strong>Director:</strong> <span id="director"></span>
+                </p>
+                <p class="card-text">
+                    <strong>Producer:</strong> <span id="producer"></span>
+                </p>
+                <p class="card-text">
+                    <strong>Opening Crawl:</strong> <br>
+                    <span id="opening-crawl"></span>
+                </p>
+                <p class="card-text">
+                    <strong>Characters:</strong> <br>
+                    <span id="characters"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
