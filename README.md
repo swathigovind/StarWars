@@ -16,10 +16,13 @@ This view displays the character details like their name, and some details such 
 * JavaScript
 
 ### Installation
-Clone the repository:
+Clone the repository: https://github.com/swathigovind/StarWars.git
 
 ### Running the app
 
-* Clone the repo
-* Double click the index.html
-* 
+* Navigate to the project directory 
+* Open the `index.html` file in your browser.
+
+
+## License
+This project is licensed under the MIT License.
