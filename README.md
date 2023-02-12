@@ -16,10 +16,9 @@ This view displays the character details like their name, and some details such 
 * JavaScript
 
 ### Installation
-Clone the repository by running the following command
+Clone the repository by running the following command or Download the project
 * git clone https://github.com/swathigovind/StarWars.git
-                      or
-* Download Zip
+
 
 ### Running the app
 
