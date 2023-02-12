@@ -17,7 +17,7 @@ This view displays the character details like their name, and some details such 
 
 ### Installation
 Clone the repository by running the following command
-git clone https://github.com/swathigovind/StarWars.git
+* git clone https://github.com/swathigovind/StarWars.git
 
 ### Running the app
 
